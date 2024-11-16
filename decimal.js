@@ -7,6 +7,5 @@ console.log("New Array", Array1)
 const result = Array1.filter(num =>Number.isInteger(num) )
 const result1 = Array1.filter(num => !Number.isInteger(num) )
 
-console.log("New Array",Array1)
 console.log("Interger", result)
 console.log("Decimals", result1)
